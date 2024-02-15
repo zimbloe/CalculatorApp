@@ -54,6 +54,15 @@ namespace GitExercise
                         Console.WriteLine("Goodbye");
                         Console.ReadKey(intercept: true);
                         return;
+                    case "pow":
+                        OptionsManager.Power(a, b);
+                        break;
+                    case "log":
+                        OptionsManager.Log(a, b);
+                        break;
+                    case "fact":
+                        OptionsManager.Factorial(a, b);
+                        break;
                 }
 
                 Console.WriteLine("Pres any key to close the app...");
